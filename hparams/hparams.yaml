@@ -3,7 +3,7 @@ voxceleb_large_1s:
   signal:
     duration: 1
   train:
-    batch_size: 512
+    batch_size: 128
     data_path: '../data/voxceleb1/voxceleb1_wav'
     meta_path: None
     num_gpu: 1
