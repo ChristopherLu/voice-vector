@@ -5,7 +5,7 @@ voxceleb_large_1s:
   train:
     batch_size: 128
     data_path: '../data/voxceleb1/voxceleb1_wav'
-    meta_path: None
+    meta_path: False
     num_gpu: 1
     lr: 0.0001
   eval:
