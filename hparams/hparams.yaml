@@ -9,7 +9,7 @@ voxceleb_large_1s:
     num_gpu: 1
     lr: 0.0001
   eval:
-    data_path: '/data/public/rw/voxceleb_norm'
+    data_path: '../data/voxceleb1/voxceleb1_wav'
   embed:
     batch_size: 512
     audio_meta_class: 'CommonVoiceMeta'
