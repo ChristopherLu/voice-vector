@@ -16,7 +16,7 @@ model:
   norm_type: 'ins'
 
 # Path
-logdir_path: '/data/private/voice-vector/logdir'
+logdir_path: './logdir'
 
 train:
   # path
